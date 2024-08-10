@@ -1,0 +1,33 @@
+COMM_TYPE_H	comm_type.h	2
+DEFAULT_APPHOME	device.c	10
+DEFAULT_BASEPATH	device.c	14
+DEFAULT_BASEPATH_APP	device.c	15
+DEFAULT_BASEPATH_MASTER	device.c	16
+DEFAULT_CFGFILE	device.c	18
+DEFAULT_FONTHOME	device.c	12
+DEFAULT_MASTER_LOGNAME	device.c	19
+DEFAULT_SRVHOME	device.c	11
+E_LOGLEVEL	device.h	11
+LOGLEVEL_ONLY_CONSOLE	device.h	5
+LOGLEVEL_ONLY_LOGD	device.h	6
+LOGLEVEL_ONLY_LOGE	device.h	10
+LOGLEVEL_ONLY_LOGI	device.h	8
+LOGLEVEL_ONLY_LOGV	device.h	7
+LOGLEVEL_ONLY_LOGW	device.h	9
+LOG_FILE_FLAG_MASTER	device.c	7
+LOG_FILE_FLAG_USER	device.c	8
+Mmain	main.c	/^int main()$/
+WLC_LOGE	comm_type.h	/^#define WLC_LOGE(...) device_master_log(LOGLEVEL_O/
+WLC_LOGI	comm_type.h	/^#define WLC_LOGI(...) device_master_log(LOGLEVEL_O/
+WLC_LOGW	comm_type.h	/^#define WLC_LOGW(...) device_master_log(LOGLEVEL_O/
+__DEVICE_h	device.h	2
+device_logs	device.c	/^static int device_logs(int flag, int level, const /
+device_master_log	device.c	/^int device_master_log(E_LOGLEVEL level, const char/
+foo	main.c	/^int foo(int a, int b)$/
+g_base_path	device.c	22
+g_master_logname	device.c	23
+log_get_masterdir	device.c	/^static int log_get_masterdir(char *o_logfilename, /
+log_getlogfilename	device.c	/^static int log_getlogfilename(int flag, char *o_lo/
+log_writebuf	device.c	/^static int log_writebuf(const char *filename, unsi/
+method_base_getbasedir	device.c	/^static unsigned char*  method_base_getbasedir()   /
+method_base_getmasterbasedir	device.c	/^static unsigned char* method_base_getmasterbasedir/

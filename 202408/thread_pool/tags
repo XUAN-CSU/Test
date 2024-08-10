@@ -1,0 +1,18 @@
+Mmain	main.c	/^int main() $/
+NUM_TASKS	main.c	7
+NUM_THREADS	main.c	6
+Task	main.c	13
+ThreadPool	main.c	23
+argument	main.c	12
+cond	main.c	21
+example_task	main.c	/^void example_task(void* arg) {$/
+function	main.c	/^    void (*function)(void* arg);$/
+mutex	main.c	20
+shutdown	main.c	22
+task_count	main.c	19
+tasks	main.c	18
+thread_pool_add_task	main.c	/^void thread_pool_add_task(ThreadPool* pool, void (/
+thread_pool_init	main.c	/^void thread_pool_init(ThreadPool* pool) {$/
+thread_pool_shutdown	main.c	/^void thread_pool_shutdown(ThreadPool* pool) {$/
+threads	main.c	17
+worker	main.c	/^void* worker(void* arg) {$/

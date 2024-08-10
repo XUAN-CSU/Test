@@ -1,0 +1,31 @@
+device.c: In function ‘device_logs’:
+device.c:117:32: warning: passing argument 2 of ‘log_writebuf’ discards ‘const’ qualifier from pointer target type [-Wdiscarded-qualifiers]
+         log_writebuf(filename, loginfo, log_length);
+                                ^~~~~~~
+device.c:32:12: note: expected ‘unsigned char *’ but argument is of type ‘const char *’
+ static int log_writebuf(const char *filename, unsigned char *content, int buflen)
+            ^~~~~~~~~~~~
+device.c:122:32: warning: passing argument 2 of ‘log_writebuf’ discards ‘const’ qualifier from pointer target type [-Wdiscarded-qualifiers]
+         log_writebuf(filename, loginfo, log_length);
+                                ^~~~~~~
+device.c:32:12: note: expected ‘unsigned char *’ but argument is of type ‘const char *’
+ static int log_writebuf(const char *filename, unsigned char *content, int buflen)
+            ^~~~~~~~~~~~
+device.c:127:32: warning: passing argument 2 of ‘log_writebuf’ discards ‘const’ qualifier from pointer target type [-Wdiscarded-qualifiers]
+         log_writebuf(filename, loginfo, log_length);
+                                ^~~~~~~
+device.c:32:12: note: expected ‘unsigned char *’ but argument is of type ‘const char *’
+ static int log_writebuf(const char *filename, unsigned char *content, int buflen)
+            ^~~~~~~~~~~~
+device.c:132:32: warning: passing argument 2 of ‘log_writebuf’ discards ‘const’ qualifier from pointer target type [-Wdiscarded-qualifiers]
+         log_writebuf(filename, loginfo, log_length);
+                                ^~~~~~~
+device.c:32:12: note: expected ‘unsigned char *’ but argument is of type ‘const char *’
+ static int log_writebuf(const char *filename, unsigned char *content, int buflen)
+            ^~~~~~~~~~~~
+device.c:137:32: warning: passing argument 2 of ‘log_writebuf’ discards ‘const’ qualifier from pointer target type [-Wdiscarded-qualifiers]
+         log_writebuf(filename, loginfo, log_length);
+                                ^~~~~~~
+device.c:32:12: note: expected ‘unsigned char *’ but argument is of type ‘const char *’
+ static int log_writebuf(const char *filename, unsigned char *content, int buflen)
+            ^~~~~~~~~~~~
